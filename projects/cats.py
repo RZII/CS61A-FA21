@@ -349,7 +349,8 @@ def fastest_words(match):
     >>> p1
     [4, 1, 6]
     """
-
+    
+    
     """player_indices = range(len(get_times(match)))  # contains an *index* for each player
     word_indices = range(len(get_words(match)))    # contains an *index* for each word
     # BEGIN PROBLEM 10
@@ -364,7 +365,10 @@ def fastest_words(match):
         final_output[fastest_player_index]+=[word_at(match,word_index)]
     return final_output"""
     
-
+    
+    """The codes above: line 356 to line 368 is another solution (which is perhaps clearer and better) """
+    """The codes below also works, but are somewhat ghastly written (bad style, bad logic, etc.)
+       it was written when my brain wasn't working properly"""
 
     Fas = [None] * len (get_words (match)) #Fas = [None, None, None]
     i = 0
@@ -422,24 +426,6 @@ def fastest_words(match):
             c5 += 1
         II += 1
     return RL
-    
-
-
-
-    """p = 0
-    while p < len (Fas):
-        w = 0
-        while w < len (RL): # 2
-            u = 0
-            while u < len (RL [w]): #1, then 2
-                RL [Fas[p]] [u] = word_at (match, p)
-                print ("Debug: RL is now:", RL)
-                print ("Debug: w:",w, "u:",u,"p:",p)
-    
-                u += 1
-        
-            w += 1
-        p += 1"""
 
 
     # END PROBLEM 10
