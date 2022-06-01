@@ -106,7 +106,7 @@ def repeated(t, k):
                 cur = i
                 count = 1
     except:
-        return "Bug"
+        return "list traversal finished"
 
 
 
