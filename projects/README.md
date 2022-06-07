@@ -1,5 +1,5 @@
-There are in total 4 projects throughout the course, but I did not do the last one.  Because the last project is about writing a Scheme project,
-and I am persoanlly not so much interested in Scheme for the moment.
+There are in total 4 projects throughout the course, but I did not do the last one.
+Because the last project is about writing a Scheme project, and I am persoanlly not so much into Scheme for the moment.
 
 Project 1, Hog, was about a gambling game, which used mainly Higher Order Functions.
 Project 2, Cats, was about a typing game, which used mainly List Comprehensions and Recursions.
