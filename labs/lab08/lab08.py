@@ -129,49 +129,6 @@ def add_d_leaves(t, v):
 
 
 
-def every_other(s):
-    """Mutates a linked list so that all the odd-indiced elements are removed
-    (using 0-based indexing).
-
-    >>> s = Link(1, Link(2, Link(3, Link(4))))
-    >>> every_other(s)
-    >>> s
-    Link(1, Link(3))
-    >>> odd_length = Link(5, Link(3, Link(1)))
-    >>> every_other(odd_length)
-    >>> odd_length
-    Link(5, Link(1))
-    >>> singleton = Link(4)
-    >>> every_other(singleton)
-    >>> singleton
-    Link(4)
-    """
-    "*** YOUR CODE HERE ***"
-
-
-def prune_small(t, n):
-    """Prune the tree mutatively, keeping only the n branches
-    of each node with the smallest label.
-
-    >>> t1 = Tree(6)
-    >>> prune_small(t1, 2)
-    >>> t1
-    Tree(6)
-    >>> t2 = Tree(6, [Tree(3), Tree(4)])
-    >>> prune_small(t2, 1)
-    >>> t2
-    Tree(6, [Tree(3)])
-    >>> t3 = Tree(6, [Tree(1), Tree(3, [Tree(1), Tree(2), Tree(3)]), Tree(5, [Tree(3), Tree(4)])])
-    >>> prune_small(t3, 2)
-    >>> t3
-    Tree(6, [Tree(1), Tree(3, [Tree(1), Tree(2)])])
-    """
-    while ___________________________:
-        largest = max(_______________, key=____________________)
-        _________________________
-    for __ in _____________:
-        ___________________
-
 
 class Link:
     """A linked list.
